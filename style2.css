@@ -1,0 +1,49 @@
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    grid-gap: space-around;
+  }
+  .progress-bar {
+    border: 2px solid rgba(237, 238, 240, 0.966);
+    height: 20px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 0.1px;
+  }
+  .progress {
+    background-color: rgb(5, 5, 5);
+    height: 15px;
+    border-radius: 20px;
+    width: 40%;
+  }
+  div.py {
+    border: 2px solid rgba(241, 240, 237, 0.966);
+    height: 20px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: rgb(170, 202, 233);
+  }
+  div.py > div {
+    background-color: rgb(214, 74, 22);
+    height: 15px;
+    border-radius: 20px;
+    width: 30%;
+  }
+  div.html > div {
+    background-color: rgb(93, 63, 53);
+    width: 80%;
+  }
+  div.sql > div {
+    background-color: rgb(236, 240, 24);
+    width: 70%;
+  }
+  
+    div.react > div {
+    background-color: rgb(13, 245, 33);
+    width: 40%;
+  }
+  div.lan-name {
+    color: rgb(248, 245, 244);
+  }

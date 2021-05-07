@@ -1,50 +1,52 @@
-.skills {
+  .technicalskills {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    grid-gap: space-around;
     align-items: center;
+    height: 50px;
   }
   .progress-bar {
     border: 2px solid rgba(237, 238, 240, 0.966);
     height: 20px;
-    width: 80%;
+    width: 50%;
     border-radius: 20px;
-    background-color: rgb(0, 0, 0);
-    padding: 0.1px;
+    background-color:rgba(219, 177, 138, 0.2);
+    padding: 0;
+    margin-bottom: 20px;
   }
   .progress {
     background-color: rgb(250, 249, 249);
     height: 15px;
     border-radius: 20px;
-    width: 40%;
+    width: 55%;
   }
   div.py {
     border: 2px solid rgba(241, 240, 237, 0.966);
     height: 20px;
-    width: 80%;
+    width: 50%;
     border-radius: 20px;
-    background-color: rgb(13, 13, 14);
+    background-color:rgba(219, 177, 138, 0.2);
   }
-  div.py > div {
+  div.Python > div {
     background-color: rgb(243, 240, 236);
     height: 15px;
     border-radius: 20px;
-    width: 30%;
+    width: 60%;
   }
   div.html > div {
     background-color: rgb(230, 216, 212);
-    width: 80%;
-  }
-  div.sql > div {
-    background-color: rgb(221, 221, 218);
     width: 70%;
   }
-  
-    div.react > div {
+    div.sql > div {
+    background-color: rgb(221, 221, 218);
+    width: 30%;
+  }
+   div.react > div {
     background-color: rgb(233, 233, 233);
-    width: 40%;
+    width: 25%;
   }
   div.lan-name {
     color: rgb(248, 245, 244);
+    font-size: medium;
+    text-align:left;
   }
+  

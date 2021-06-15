@@ -79,6 +79,13 @@ section{
     color:var(--yellow);
 }
 
+.mainLeaderboard {
+    text-align: center;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+
 header{
     position: fixed;
     top:0; left:0;
@@ -294,6 +301,7 @@ header .navbar ul li a:hover{
     margin:2rem;
     overflow: hidden;
     cursor: pointer;
+    justify-content: center;
 }
 
 .contact .row{
@@ -423,7 +431,7 @@ header .navbar ul li a:hover{
         width:100%;
     }
 
-    .portfolio .box-container .box{
+    .technicalskills .box-container .box{
         width:100%;
     }
 

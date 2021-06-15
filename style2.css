@@ -12,12 +12,15 @@
     background-color:rgba(219, 177, 138, 0.2);
     padding: 0;
     margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
   }
   .progress {
     background-color: rgb(250, 249, 249);
     height: 15px;
     border-radius: 20px;
     width: 55%;
+    align-items: center;
   }
   div.py {
     border: 2px solid rgba(241, 240, 237, 0.966);
